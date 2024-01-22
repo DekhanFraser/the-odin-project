@@ -39,42 +39,42 @@ This is my repository for The Odin Project course that I will be undertaking thi
 - [x] Lists
 - [x] Links and images
 - [x] Commit messages
-- [] Project: Recipes
+- [ ] Project: Recipes
 
 ### CSS Foundations
 
-- [] Intro to CSS
-- [] The cascade
-- [] Inspecting HTML and CSS
-- [] The box model
-- [] Block and inline
+- [ ] Intro to CSS
+- [ ] The cascade
+- [ ] Inspecting HTML and CSS
+- [ ] The box model
+- [ ] Block and inline
 
 ### Flexbox
 
-- [] Introdution to flexbox
-- [] Growing and shrinking
-- [] Axes
-- [] Alignment
-- [] Project: Landing Page
+- [ ] Introdution to flexbox
+- [ ] Growing and shrinking
+- [ ] Axes
+- [ ] Alignment
+- [ ] Project: Landing Page
 
 ### JavaScript Basics
 
-- [] Fundamentals part 1
-- [] Fundamentals part 2
-- [] JavaScript developer tools
-- [] Fundamentals part 3
-- [] Problem solving
-- [] Understanding errors
-- [] Project: Rock Paper Scissors
-- [] Clean code
-- [] Installing Node.js
-- [] Fundamentals part 4
-- [] DOM manipulation and events
-- [] Revisiting Rock Paper Scissors
-- [] Project: Etch-a-Sketch
-- [] Fundamentals part 5
-- [] Project: Calculator
+- [ ] Fundamentals part 1
+- [ ] Fundamentals part 2
+- [ ] JavaScript developer tools
+- [ ] Fundamentals part 3
+- [ ] Problem solving
+- [ ] Understanding errors
+- [ ] Project: Rock Paper Scissors
+- [ ] Clean code
+- [ ] Installing Node.js
+- [ ] Fundamentals part 4
+- [ ] DOM manipulation and events
+- [ ] Revisiting Rock Paper Scissors
+- [ ] Project: Etch-a-Sketch
+- [ ] Fundamentals part 5
+- [ ] Project: Calculator
 
 ### Conclusion
 
-- [] Choose your path forward
+- [ ] Choose your path forward
