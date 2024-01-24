@@ -43,11 +43,11 @@ This is my repository for The Odin Project course that I will be undertaking thi
 
 ### CSS Foundations
 
-- [ ] Intro to CSS
-- [ ] The cascade
-- [ ] Inspecting HTML and CSS
-- [ ] The box model
-- [ ] Block and inline
+- [x] Intro to CSS
+- [x] The cascade
+- [x] Inspecting HTML and CSS
+- [x] The box model
+- [x] Block and inline
 
 ### Flexbox
 
