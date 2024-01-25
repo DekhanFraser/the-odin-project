@@ -51,10 +51,10 @@ This is my repository for The Odin Project course that I will be undertaking thi
 
 ### Flexbox
 
-- [ ] Introdution to flexbox
-- [ ] Growing and shrinking
-- [ ] Axes
-- [ ] Alignment
+- [x] Introdution to flexbox
+- [x] Growing and shrinking
+- [x] Axes
+- [x] Alignment
 - [ ] Project: Landing Page
 
 ### JavaScript Basics
