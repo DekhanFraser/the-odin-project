@@ -59,12 +59,12 @@ This is my repository for The Odin Project course that I will be undertaking thi
 
 ### JavaScript Basics
 
-- [ ] Fundamentals part 1
-- [ ] Fundamentals part 2
-- [ ] JavaScript developer tools
-- [ ] Fundamentals part 3
-- [ ] Problem solving
-- [ ] Understanding errors
+- [x] Fundamentals part 1
+- [x] Fundamentals part 2
+- [x] JavaScript developer tools
+- [x] Fundamentals part 3
+- [x] Problem solving
+- [x] Understanding errors
 - [ ] Project: Rock Paper Scissors
 - [ ] Clean code
 - [ ] Installing Node.js
