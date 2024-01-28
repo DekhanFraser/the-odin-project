@@ -1,3 +1,6 @@
+let playerScore = 0;
+let computerScore = 0;
+
 function getComputerChoice() {
     let choice;
     let selection = Math.floor(Math.random() * 3 + 1);
@@ -22,6 +25,8 @@ function getComputerChoice() {
 
 function playRound(playerSelection, computerSelection) {
     if (playerSelection == computerSelection) {
+        playerScore++;
+        computerScore++;
         return "We have a tie!"
     }
     else if (
@@ -29,14 +34,33 @@ function playRound(playerSelection, computerSelection) {
         playerSelection == "paper" && computerSelection == "rock" ||
         playerSelection == "scissors" && computerSelection == "paper"
     ) {
+        playerScore++;
         return "The player's " + playerSelection + " beats the computer's " + computerSelection;
     } else {
+        computerScore++;
         return "The computer's " + computerSelection + " beats the player's " + playerSelection;
     }
 }
 
-for (let rounds = 0; rounds < 3; rounds++) {
-    let playerSelection = prompt("Rock, paper or scissors?")
-    let computerSelection = getComputerChoice();
-    console.log(playRound(playerSelection, computerSelection));
+function checkScore() {
+    if (playerScore == computerScore) {
+        return "The player and computer are tied!"
+    }
+    else if (playerScore > computerScore) {
+        return "The player is the winner!"
+    }
+    else {
+        return "The computer is the winner!"
+    }
 }
+
+function game() {
+    for (let rounds = 0; rounds < 5; rounds++) {
+        let playerSelection = prompt("Rock, paper or scissors?")
+        let computerSelection = getComputerChoice();
+        console.log(playRound(playerSelection, computerSelection));
+    }
+    console.log(checkScore());
+}
+
+game();
