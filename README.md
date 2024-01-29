@@ -68,7 +68,7 @@ This is my repository for The Odin Project course that I will be undertaking thi
 - [x] Project: Rock Paper Scissors
 - [x] Clean code
 - [x] Installing Node.js
-- [] Fundamentals part 4
+- [ ] Fundamentals part 4
 - [ ] DOM manipulation and events
 - [ ] Revisiting Rock Paper Scissors
 - [ ] Project: Etch-a-Sketch
