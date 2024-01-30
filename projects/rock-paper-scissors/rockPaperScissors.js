@@ -1,5 +1,12 @@
 let playerScore = 0;
 let computerScore = 0;
+let maxScore = 5;
+let gameWon = false;
+
+// UI Variables
+const gamelog = document.querySelector('#gameoutput');
+const docPlayerScore = document.querySelector('#playerscore');
+const docComputerScore = document.querySelector('#computerscore');
 
 function getComputerChoice() {
     let choice;
@@ -43,30 +50,43 @@ function playRound(playerSelection, computerSelection) {
 }
 
 function checkScore() {
-    if (playerScore == computerScore) {
-        return "The player and computer are tied!"
-    }
-    else if (playerScore > computerScore) {
-        return "The player is the winner!"
-    }
-    else {
-        return "The computer is the winner!"
+    if (playerScore == maxScore || computerScore == maxScore) {
+        if (playerScore == computerScore) {
+            updateGameLog("The player and computer are tied!");
+        }
+        else if (playerScore > computerScore) {
+            updateGameLog("The player is the winner!");
+        }
+        else {
+            updateGameLog("The computer is the winner!");
+        }
+        gameWon = true;
     }
 }
 
-function game() {
-    for (let rounds = 0; rounds < 5; rounds++) {
-        let playerSelection = prompt("Rock, paper or scissors?")
-        let computerSelection = getComputerChoice();
-        console.log(playRound(playerSelection, computerSelection));
-    }
-    console.log(checkScore());
+function updateGameLog(str) {
+    let content = document.createElement('p');
+    content.textContent = str;
+    gamelog.appendChild(content);
 }
 
-// game();
 function weaponSelected(str) {
-    let computerSelection = getComputerChoice();
-    console.log(playRound(str, computerSelection));
+    if (!gameWon) {
+        let computerSelection = getComputerChoice();
+        updateGameLog(playRound(str, computerSelection));
+        docPlayerScore.textContent = playerScore;
+        docComputerScore.textContent = computerScore;
+        checkScore();
+    }
+}
+
+function restartGame() {
+    gameWon = false;
+    playerScore = 0;
+    computerScore = 0;
+    docPlayerScore.textContent = playerScore;
+    docComputerScore.textContent = computerScore;
+    gamelog.textContent = '';
 }
 
 const btnRock = document.querySelector('#rock');
@@ -77,3 +97,6 @@ btnPaper.addEventListener('click', () => {weaponSelected('paper')});
 
 const btnScissors = document.querySelector('#scissors');
 btnScissors.addEventListener('click', () => {weaponSelected('scissors')});
+
+const btnRestart = document.querySelector('#restart');
+btnRestart.addEventListener('click', () => restartGame());
