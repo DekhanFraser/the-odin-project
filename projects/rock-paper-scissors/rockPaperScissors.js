@@ -63,4 +63,17 @@ function game() {
     console.log(checkScore());
 }
 
-game();
+// game();
+function weaponSelected(str) {
+    let computerSelection = getComputerChoice();
+    console.log(playRound(str, computerSelection));
+}
+
+const btnRock = document.querySelector('#rock');
+btnRock.addEventListener('click', () => {weaponSelected('rock')});
+
+const btnPaper = document.querySelector('#paper');
+btnPaper.addEventListener('click', () => {weaponSelected('paper')});
+
+const btnScissors = document.querySelector('#scissors');
+btnScissors.addEventListener('click', () => {weaponSelected('scissors')});
