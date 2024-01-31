@@ -72,7 +72,7 @@ This is my repository for The Odin Project course that I will be undertaking thi
 - [x] DOM manipulation and events
 - [x] Revisiting Rock Paper Scissors
 - [ ] Project: Etch-a-Sketch
-- [ ] Fundamentals part 5
+- [x] Fundamentals part 5
 - [ ] Project: Calculator
 
 ### Conclusion
