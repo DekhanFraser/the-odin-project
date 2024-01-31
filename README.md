@@ -77,4 +77,43 @@ This is my repository for The Odin Project course that I will be undertaking thi
 
 ### Conclusion
 
-- [ ] Choose your path forward
+- [x] Choose your path forward
+
+# Full Stack JavaScript
+
+## Intermediate HTML and CSS
+
+### Intermediate HTML Concepts
+
+- [x] Introduction
+- [x] Emmet
+- [ ] SVG
+- [ ] Tables
+
+### Intermediate CSS Concepts
+
+- [ ] Default Styles
+- [ ] CSS Units
+- [ ] More Text Styles
+- [ ] More CSS Properties
+- [ ] Advanced Selectors
+- [ ] Positioning
+- [ ] CSS Functions
+- [ ] Custom Properties
+- [ ] Browser Compatibility
+- [ ] Frameworks and Preprocessors
+
+### Forms
+
+- [ ] Form Basics
+- [ ] Form Validation
+- [ ] Project: Sign-up Form
+
+### Grid
+
+- [ ] Introduction to Grid
+- [ ] Creating a Grid
+- [ ] Positioning Grid Elements
+- [ ] Advanced Grid Properties
+- [ ] Using Flexbox and Grid
+- [ ] Project: Admin Dashboard
