@@ -26,6 +26,11 @@ body {
     border-width: 1px 0px 0px 1px;
 }
 
+button {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
 .border-right {
     border-right-width: 1px;
 }
@@ -39,4 +44,8 @@ body {
     height: 0;
     margin: 0;
     padding: 0;
-  }
+}
+
+.hovered {
+    background-color: aqua;
+}

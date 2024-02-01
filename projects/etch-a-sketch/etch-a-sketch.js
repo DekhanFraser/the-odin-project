@@ -1,4 +1,6 @@
-let drawingboard = document.querySelector('.container')
+let drawingContainer = document.querySelector('.container')
+let drawingBoardSize = 25;
+let resizeButton = document.querySelector('.resize');
 
 // Create drawing board by adding "cell" divs to act as pixels
 function createGrid(boardSize) {
@@ -13,23 +15,28 @@ function createGrid(boardSize) {
             if (y == boardSize-1) {
                 cell.classList.add('border-bottom');
             }
-            drawingboard.appendChild(cell);
+            drawingContainer.appendChild(cell);
         }
         let nextRow = document.createElement('div');
         nextRow.classList.add('break');
-        drawingboard.appendChild(nextRow);
+        drawingContainer.appendChild(nextRow);
     }
     let height = 1024 / boardSize;
     document.documentElement.style.setProperty('--cell-height', height + 'px');
+    
+    // Add a mouseover event for all newly created cells
+    const cellsArray = document.querySelectorAll('.cell');
+    cellsArray.forEach(element => {
+        element.addEventListener('mouseover', () => {element.classList.add('hovered')})
+    });
 }
 
-createGrid(5);
+function resizeGrid(size) {
+    drawingContainer.textContent = '';
+    createGrid(size);
+}
 
-// Create a mouse-over effect that changes the color of the cell hovered over
+createGrid(drawingBoardSize);
 
 // Add button at the top of the grid to prompt user for grid size
-
-// Extra
-// Make the hover effect change color at random
-
-// Implement progressive coloring of the cells (by 10% per hover)
+resizeButton.addEventListener('click', () => {let gridSize = prompt('Type in grid size:', 25); resizeGrid(gridSize);})
