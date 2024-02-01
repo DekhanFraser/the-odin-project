@@ -65,13 +65,13 @@ This is my repository for The Odin Project course that I will be undertaking thi
 - [x] Fundamentals part 3
 - [x] Problem solving
 - [x] Understanding errors
-- [x] Project: Rock Paper Scissors
+- [x] [Project: Rock Paper Scissors](https://dekhanfraser.github.io/the-odin-project/projects/rock-paper-scissors/)
 - [x] Clean code
 - [x] Installing Node.js
 - [x] Fundamentals part 4
 - [x] DOM manipulation and events
 - [x] Revisiting Rock Paper Scissors
-- [ ] Project: Etch-a-Sketch
+- [x] [Project: Etch-a-Sketch](https://dekhanfraser.github.io/the-odin-project/projects/etch-a-sketch/)
 - [x] Fundamentals part 5
 - [ ] Project: Calculator
 
