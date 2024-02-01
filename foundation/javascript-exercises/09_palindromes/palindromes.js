@@ -9,7 +9,5 @@ const palindromes = function (str) {
     return true;
 };
 
-console.log(palindromes('racecar'));
-
 // Do not edit below this line
 module.exports = palindromes;
