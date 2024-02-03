@@ -73,7 +73,7 @@ This is my repository for The Odin Project course that I will be undertaking thi
 - [x] Revisiting Rock Paper Scissors
 - [x] [Project: Etch-a-Sketch](https://dekhanfraser.github.io/the-odin-project/projects/etch-a-sketch/)
 - [x] Fundamentals part 5
-- [ ] Project: Calculator
+- [x] [Project: Calculator](https://dekhanfraser.github.io/the-odin-project/projects/calculator/)
 
 ### Conclusion
 
