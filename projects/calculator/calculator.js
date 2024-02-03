@@ -16,30 +16,3 @@ function divide(a, b) {
     }
     return a / b;
 }
-
-let first, second, operator;
-
-function operate(operator, first, second) {
-    let result;
-    switch (operator) {
-        case '+':
-            result = add(first, second);
-            break;
-
-        case value:
-            result = subtract(first, second);
-            break;
-
-        case value:
-            result = multiply(first, second);
-            break;
-
-        case value:
-            result = divide(first, second);
-            break;
-    
-        default:
-            break;
-    }
-    return result;
-}
