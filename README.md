@@ -87,12 +87,12 @@ This is my repository for The Odin Project course that I will be undertaking thi
 
 - [x] Introduction
 - [x] Emmet
-- [ ] SVG
-- [ ] Tables
+- [X] SVG
+- [X] Tables
 
 ### Intermediate CSS Concepts
 
-- [ ] Default Styles
+- [X] Default Styles
 - [ ] CSS Units
 - [ ] More Text Styles
 - [ ] More CSS Properties
