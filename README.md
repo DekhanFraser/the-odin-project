@@ -93,8 +93,8 @@ This is my repository for The Odin Project course that I will be undertaking thi
 ### Intermediate CSS Concepts
 
 - [X] Default Styles
-- [ ] CSS Units
-- [ ] More Text Styles
+- [X] CSS Units
+- [X] More Text Styles
 - [ ] More CSS Properties
 - [ ] Advanced Selectors
 - [ ] Positioning
