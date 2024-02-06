@@ -95,8 +95,8 @@ This is my repository for The Odin Project course that I will be undertaking thi
 - [X] Default Styles
 - [X] CSS Units
 - [X] More Text Styles
-- [ ] More CSS Properties
-- [ ] Advanced Selectors
+- [X] More CSS Properties
+- [X] Advanced Selectors
 - [ ] Positioning
 - [ ] CSS Functions
 - [ ] Custom Properties
