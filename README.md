@@ -96,16 +96,16 @@ This is my repository for The Odin Project course that I will be undertaking thi
 - [X] CSS Units
 - [X] More Text Styles
 - [X] More CSS Properties
-- [X] Advanced Selectors
-- [ ] Positioning
-- [ ] CSS Functions
-- [ ] Custom Properties
-- [ ] Browser Compatibility
-- [ ] Frameworks and Preprocessors
+- [X] Advanced Selectors - Completed the [CSS Diner](https://flukeout.github.io/)
+- [X] Positioning
+- [X] CSS Functions
+- [X] Custom Properties
+- [X] Browser Compatibility
+- [X] Frameworks and Preprocessors
 
 ### Forms
 
-- [ ] Form Basics
+- [X] Form Basics
 - [ ] Form Validation
 - [ ] Project: Sign-up Form
 
