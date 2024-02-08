@@ -106,7 +106,7 @@ This is my repository for The Odin Project course that I will be undertaking thi
 ### Forms
 
 - [X] Form Basics
-- [ ] Form Validation
+- [X] Form Validation
 - [ ] Project: Sign-up Form
 
 ### Grid
