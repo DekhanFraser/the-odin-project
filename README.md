@@ -111,7 +111,7 @@ This is my repository for The Odin Project course that I will be undertaking thi
 
 ### Grid
 
-- [ ] Introduction to Grid
+- [X] Introduction to Grid
 - [ ] Creating a Grid
 - [ ] Positioning Grid Elements
 - [ ] Advanced Grid Properties
